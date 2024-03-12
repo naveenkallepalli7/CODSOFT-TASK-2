@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    
+      
+    background-color:lightcyan;
+   
+    height:100vh; 
+    width: 100vw;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+
+h1{ 
+    padding-top: 10px;
+    text-align: center;
+    color: chocolate;
+}
+img{
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+   ul{
+        float:right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    ul li{
+        list-style: none;
+       margin-left: 10px;
+       margin-top:20px;
+       padding-left: 30px;
+      float: right;
+    
+    }
+    ul li a{
+        /* text-decoration: none; */
+       color:blue;
+       font-weight: bold;
+    }
+    ul li a:hover {
+        color:orangered;
+    }
+    .image{
+      
+        float:left;
+        width: 50px;
+    }
+    .wr{
+       
+      float:right;
+      width: 50px;
+      margin-left: 100px;
+    }
+  .intro {
+   
+    text-align: center;
+    padding-right: 50%;
+    margin-top: 100px;
+    margin-right:700px;
+    float:right;
+  }
+  .navibar  {
+    float:right;
+    display: flex;
+     text-decoration: none;
+     margin-top: 10px;
+    padding-right: 700px;
+    text-decoration: none;
+   
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    margin-top: 300px;
+    margin-left: 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 10px;
+}
+.naveen{
+    /* background-image: url("/onlinecreation/bgimage30.avif"); */
+     /* background-color: lightsteelblue;  */
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 290px;
+    padding-bottom: 500px;
+   margin-left: 90px;
+    margin-top: 100px;
+    float: left;
+    
+
+}
+ /* .naveen h1{
+    margin-left: 30px;
+    padding-bottom: 500px;
+    float: left;
+    width:20%;
+    
+}
+.naveen h3{
+    padding-top: 40px;
+} */
+.about h2{
+    border-color: blue;
+}
